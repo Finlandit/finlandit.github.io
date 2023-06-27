@@ -1,0 +1,61 @@
+.modlog-action {
+	text-transform: capitalize;
+}
+
+td a {
+    color: inherit;
+}
+
+.action-banned-user-text {
+	color: rgb(185 0 0);
+	text-shadow: 0 0 5px rgb(185 0 0 / 50%);
+}
+tr.gridjs-tr:has(.action-banned-user-text) td {
+	background-color: rgb(225 0 0 / var(--td-bg-opacity));
+}
+
+.action-removed-submission-text,
+.action-removed-comment-text {
+    color: rgb(250 50 50);
+    text-shadow: 0 0 5px rgb(255 50 50 / 50%);
+}
+tr.gridjs-tr:has(.action-removed-submission-text) td,
+tr.gridjs-tr:has(.action-removed-comment-text) td{
+	background-color: rgb(255 100 100 / var(--td-bg-opacity));
+}
+
+.action-sticky-submission-text,
+.action-sticky-comment-text {
+    color: rgb(0 93 155);
+    text-shadow: 0 0 5px rgb(0 93 155 / 50%);
+}
+
+tr.gridjs-tr:has(.action-sticky-submission-text) td,
+tr.gridjs-tr:has(.action-sticky-comment-text) td {
+	background-color: rgb(0 93 155 / var(--td-bg-opacity));
+}
+
+.action-restored-submission-text,
+.action-restored-comment-text,
+.action-unlocked-submission-text,
+.action-unlocked-comment-text {
+    color: rgb(55 155 0);
+    text-shadow: 0 0 5px rgb(55 155 0 / 50%);
+}
+
+tr.gridjs-tr:has(.action-restored-submission-text) td,
+tr.gridjs-tr:has(.action-restored-comment-text) td,
+tr.gridjs-tr:has(.action-unlocked-submission-text) td,
+tr.gridjs-tr:has(.action-unlocked-comment-text) td {
+	background-color: rgb(50 255 65 / var(--td-bg-opacity));
+}
+
+.action-locked-submission-text,
+.action-locked-comment-text {
+    color: rgb(186 152 0);
+    text-shadow: 0 0 5px rgb(186 152 0 / 50%);
+}
+tr.gridjs-tr:has(.action-locked-submission-text) td,
+tr.gridjs-tr:has(.action-locked-comment-text) td {
+	background-color: rgb(255 218 55 / var(--td-bg-opacity));
+}

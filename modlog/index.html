@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet"/>
+		<link href="../global.css" rel="stylesheet"/>
+		<link href="modlog.css" rel="stylesheet"/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+		<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0"></script>
+		<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Moderator Log</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="site-header">
+				<div class="header-left">
+					<a href="https://www.reddit.com/r/Finland" target="_blank" rel="noopener noreferrer" class="title">r/Finland</a>
+					<div class="subtitle">Decentralized Moderator Log</div>
+				</div>
+				<div class="header-right">
+					<a href="../" class="home-link-btn"><i class="fa-solid fa-chevron-left"></i>Main Page</a>
+				</div>
+			</div>
+			<div id="site-content">
+				<h2>Daily Activity</h2>
+				<div class="collapsible" style="height: 200px;">
+					<canvas id="activity-chart"></canvas>
+				</div>
+				<h2>Moderator Log</h2>
+				<div id="modlog-table"></div>
+			</div>
+		</div>
+		<script src="../global.js"></script>
+		<script src="modlog.js"></script>
+	</body>
+</html>

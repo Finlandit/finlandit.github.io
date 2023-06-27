@@ -1,0 +1,81 @@
+:root {
+	--fin-blue: #002F6C;
+	--secondary-fin-blue: #5c7596;
+	--light-fin-blue: #dee5ee;
+	--very-light-fin-blue: #f5f8fc;
+	--td-bg-opacity: 7%;
+}
+@font-face {
+	font-family: 'Mona Sans';
+	src:
+		url('assets/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+		url('assets/fonts/Mona-Sans.woff2') format('woff2-variations');
+	font-weight: 200 900;
+	font-stretch: 75% 125%;
+}
+body {
+	font-family: Mona Sans;
+	margin: 0;
+	display: flex;
+    justify-content: center;
+	color: black;
+}
+h1, h2, h3, h4, strong {
+    color: var(--fin-blue);
+}
+#wrapper {
+	margin: 2em;
+	width: 80%;
+	position: relative;
+}
+#site-header {
+	display: flex;
+    justify-content: space-between;
+	margin-bottom: 2em;
+}
+#site-header .header-left {
+	display: flex;
+    flex-direction: column;
+	width: fit-content;
+	user-select: none;
+}
+#site-header .header-left .title {
+	font-size: 3em;
+    font-weight: 600;
+	text-decoration: none;
+	color: var(--fin-blue);
+	cursor: pointer;
+}
+#site-header .header-left .title:hover {
+	color: var(--secondary-fin-blue);
+}
+#site-header .header-right {
+	display: flex;
+    align-items: flex-start;
+}
+#site-content {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+.home-link-btn {
+	width: 100px;
+	height: fit-content;
+	padding: 10px 0 10px 10px;
+	color: var(--fin-blue);
+	text-decoration: none;
+    display: flex;
+    flex-direction: row;
+	grid-gap: 5px;
+	word-break: break-word;
+}
+.disabled {
+	pointer-events: none;
+	opacity: 0.2;
+	cursor: not-allowed;
+}
+@media (max-width: 1000px) {
+	#wrapper {
+		width: 90% !important;
+	}
+}
