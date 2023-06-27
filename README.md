@@ -6,7 +6,7 @@ Everything shown on the page is 100% public information, gotten from our r/Finla
 
 ## What is this?
 
-It's a website for monitoring community moderator ("*decentralized moderating*") activity. Since we've given you the control to moderate, you should also have access to some tools to monitor your fellow moderators.
+It's a website for monitoring community moderator ("*decentralized moderating*") activity. Since we've given you the ability to moderate, you should also have access to some tools to monitor your fellow moderators.
 
 
 ## What does it try to achieve?
