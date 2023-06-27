@@ -8,7 +8,6 @@ td a {
 
 td span[data-rank="1"] {
     color: var(--fin-blue);
-    text-shadow: 0 0 5px var(--light-fin-blue);
 }
 tr.gridjs-tr:has(span[data-rank="1"]) td {
     color: var(--fin-blue);
@@ -20,7 +19,6 @@ tr.gridjs-tr:has(span[data-rank="1"]) td {
 
 td span[data-rank="2"] {
     color: var(--fin-blue);
-    text-shadow: 0 0 5px var(--light-fin-blue);
 }
 tr.gridjs-tr:has(span[data-rank="2"]) td {
     color: var(--fin-blue);
@@ -32,7 +30,6 @@ tr.gridjs-tr:has(span[data-rank="2"]) td {
 
 td span[data-rank="3"] {
     color: var(--fin-blue);
-    text-shadow: 0 0 5px var(--light-fin-blue);
 }
 tr.gridjs-tr:has(span[data-rank="3"]) td {
     color: var(--fin-blue);
