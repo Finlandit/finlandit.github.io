@@ -1,4 +1,4 @@
-![image](https://github.com/Finlandit/finlandit.github.io/assets/76921756/cb096832-d98d-4442-948e-b54b61f7f197)
+![image](https://github.com/Finlandit/finlandit.github.io/assets/76921756/61a0c9bc-4d60-48af-bf7e-f6868398e745)
 
 # r/Finland Public Moderator Tools
 
