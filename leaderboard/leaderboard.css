@@ -6,10 +6,7 @@ td a {
     color: inherit;
 }
 
-td span[data-rank="1"] {
-    color: var(--fin-blue);
-}
-tr.gridjs-tr:has(span[data-rank="1"]) td {
+tr.gridjs-tr:nth-child(1) td {
     color: var(--fin-blue);
     background-color: rgb(222 229 238 / 85%);
     font-size: 1.3em;
@@ -17,10 +14,7 @@ tr.gridjs-tr:has(span[data-rank="1"]) td {
     font-stretch: extra-expanded;
 }
 
-td span[data-rank="2"] {
-    color: var(--fin-blue);
-}
-tr.gridjs-tr:has(span[data-rank="2"]) td {
+tr.gridjs-tr:nth-child(2) td {
     color: var(--fin-blue);
     background-color: rgb(222 229 238 / 55%);
     font-size: 1.09em;
@@ -28,10 +22,7 @@ tr.gridjs-tr:has(span[data-rank="2"]) td {
     font-stretch: expanded;
 }
 
-td span[data-rank="3"] {
-    color: var(--fin-blue);
-}
-tr.gridjs-tr:has(span[data-rank="3"]) td {
+tr.gridjs-tr:nth-child(3) td {
     color: var(--fin-blue);
     background-color: rgb(222 229 238 / 25%);
     font-size: 1.02em;
