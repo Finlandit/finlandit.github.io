@@ -142,7 +142,7 @@ async function getModlog() {
 		const source = sourcePermalink ? `${sourceUserLink} ${sourceSubmissionLink}` : sourceUserLink;
 		const target = `${targetUserLink} ${targetSubmissionLink}`;
 
-		return [ stylizedAction, source, target, stylizedDate ];
+		return [ stylizedAction, target, source, stylizedDate ];
 	}).reverse();
 
 	return { data, gridData };
@@ -153,9 +153,9 @@ async function load() {
 
 	new gridjs.Grid({
 		columns: [
-			{ name: 'Action', formatter: cell => gridjs.html(cell) }, 
-			{ name: 'Initiator', formatter: cell => gridjs.html(cell) },
+			{ name: 'Action', formatter: cell => gridjs.html(cell) },
 			{ name: 'Target', formatter: cell => gridjs.html(cell) },
+			{ name: 'Initiator', formatter: cell => gridjs.html(cell) },
 			{ 
 				name: 'Date & Time',
 				formatter: cell => gridjs.html(cell),
